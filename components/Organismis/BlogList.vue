@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col gap-8 my-12">
-    <blog-item></blog-item>
+    <blog-item to="/article"></blog-item>
     <blog-item></blog-item>
     <blog-item></blog-item>
   </div>
