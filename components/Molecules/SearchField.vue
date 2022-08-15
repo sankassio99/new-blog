@@ -5,6 +5,7 @@
       icon="search"
       placeholder="Search for blogs"
     ></text-field>
+    <filter-button></filter-button>
     <datalist id="category">
       <option value="Tech"></option>
       <option value="Personal Development"></option>
@@ -12,8 +13,6 @@
       <option value="JavaScript"></option>
       <option value="Carrer"></option>
     </datalist>
-
-    <filter-button></filter-button>
   </div>
 </template>
 
