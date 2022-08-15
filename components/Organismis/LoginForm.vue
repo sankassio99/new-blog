@@ -2,7 +2,7 @@
   <form class="flex flex-col gap-8">
     <text-field inputType="email" :icon="'mail'" :placeholder="'Your email'"></text-field>
     <text-field inputType="password" :icon="'key'" :placeholder="'Your password'"></text-field>
-    <base-button buttonType="submit" text="Login"></base-button>
+    <base-button to="/catalog" text="Login"></base-button>
   </form>
 </template>
 
