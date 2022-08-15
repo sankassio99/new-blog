@@ -4,11 +4,11 @@
     <div
       class="flex flex-col gap-8 lg:gap-16 justify-end"
     >
-      <div class="w-96">
+      <div class="animate-fade-in">
         <welcome-title></welcome-title>
       </div>
-      <button-group></button-group>
-      <keep-with-phone></keep-with-phone>
+      <button-group class="animate-wiggle"></button-group>
+      <keep-with-phone class="animate-wiggle-slow-1"></keep-with-phone>
     </div>
   </div>
 </template>

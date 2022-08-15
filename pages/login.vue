@@ -5,10 +5,10 @@
     >
         <back-button to="/"></back-button>
         <logo></logo>
-        <title-xl text="Login with your account and fun"></title-xl>
+        <title-xl class="animate-fade-in" text="Login with your account and fun"></title-xl>
         <login-form></login-form>
 
-        <go-to-register></go-to-register>
+        <go-to-register class="animate-fade-in"></go-to-register>
 
     </div>
   </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="p-5 rounded-lg container mx-auto">
-    <logo></logo>
+    <logo class="animate-pulse"></logo>
   </div>
 </template>
 

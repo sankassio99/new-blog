@@ -1,9 +1,9 @@
 <template>
   <div class="max-w-3xl mx-auto px-6">
-    <back-button to="/catalog"></back-button>
+    <back-button class="animate-wiggle" to="/catalog"></back-button>
     <div class="mt-20">
-      <banner-blog></banner-blog>
-      <div class="my-16">
+      <banner-blog class="animate-fade-in"></banner-blog>
+      <div class="my-16 animate-wiggle-slow-1">
         <span class="text-gray-500 font-semibold"
           >By <span class="text-gray-900">Kelly Peter</span></span
         >

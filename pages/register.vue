@@ -5,10 +5,10 @@
     >
         <back-button to="/"></back-button>
 
-        <logo></logo>
-        <title-xl text="Register your account to a new Blog's World"></title-xl>
+        <logo class="animate-fade-in"></logo>
+        <title-xl class="animate-fade-in" text="Register your account to a new Blog's World"></title-xl>
         <register-form></register-form>
-            <go-to-login></go-to-login>
+            <go-to-login class="animate-fade-in"></go-to-login>
     </div>
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-3xl mx-auto px-5">
-    <header-main></header-main>
+    <header-main class="animate-fade-in"></header-main>
     <blog-list></blog-list>
   </div>
 </template>

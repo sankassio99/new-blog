@@ -1,6 +1,6 @@
 <template>
     <div class="">
-        <p class="font-medium text-gray-400">{{text}}</p>
+        <p class="font-medium text-gray-400 first-letter:text-7xl">{{text}}</p>
     </div>
 </template>
 
