@@ -1,7 +1,7 @@
 <template>
     <div class="p-3 rounded-xl bg-gray-50 w-full flex items-center">
         <i class="material-icons px-2">{{icon}}</i>
-        <input :type="inputType" 
+        <input :list="list" :type="inputType" 
         class="outline-none bg-gray-50 w-full" 
         :placeholder="placeholder"/> 
     </div>
@@ -22,6 +22,10 @@ export default {
             type: String,
             required: false,
             default: 'text'
+        },
+        list: {
+            type: String,
+            required: false,
         },
     }
 }
